@@ -42,11 +42,11 @@ class HellClient(Client):
             self.user.mention = me.mention
             self.user.name = me.first_name
             self.user.username = me.username
-            try:
-                await self.user.join_chat("Its_HellBot")
-                await self.user.join_chat("https://t.me/joinchat/LUzuM9rrEdIwZTFl")
-            except:
-                pass
+    #        try:
+    #            await self.user.join_chat("Its_HellBot")
+    #            await self.user.join_chat("https://t.me/joinchat/LUzuM9rrEdIwZTFl")
+    #        except:
+    #            pass
             LOGS.info(f"\x3e\x3e\x20{self.user.name}\x20\x69\x73\x20\x6f\x6e\x6c\x69\x6e\x65\x20\x6e\x6f\x77\x21")
         LOGS.info("\x3e\x3e\x20\x42\x6f\x6f\x74\x65\x64\x20\x75\x70\x20\x48\x65\x6c\x6c\x4d\x75\x73\x69\x63\x21")
 
